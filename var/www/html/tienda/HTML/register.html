@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagenes/icono-blanco.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <title>Registrarse</title>
+</head>
+
+<body>
+        <header class="container-fluid">
+            <section class="row justify-content-left align-items-center">
+                <article class="col-md-1 col-2">
+                    <a href="/HTML/Index.html"><img src="/imagenes/icono-blanco.ico" width="75" href="index"></a>   
+                </article>
+                <article class="col-md-6 col-10">
+                <form class="search-bar" action="/buscar" method="get">
+                    <input type="text" name="q" placeholder="Buscar productos...">
+                    <button type="submit">Buscar</button>
+                </form> 
+                </article>
+                <article class="col-md-1 mt-2 mt-md-0 col-3">
+                  <button class="btn btn-primary" ><a href="/HTML/register.html" id="texto_bt">Registrarse</a></button>
+              </article>
+              <article class="col-md-1 mt-2 mt-md-0 col-3">
+                <button class="btn btn-primary" ><a href="/HTML/inicio_de_sesion.html" id="texto_bt">Iniciar sesion</a></button>
+            </article>
+            <article class="col-md-1 mt-2 mt-md-0 col-3">
+              <div class="dropdown" id="boton">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="/imagenes/uruguay.png" width="20">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><img src="/imagenes/estados-unidos.png" width="20"></a></li>
+                </ul>
+              </div>
+            </article>
+            <article class="col-md-1 mt-2 mt-md-0 col-3">
+              <button class="btn btn-primary" ><a href="/HTML/inicio_de_sesion.html" id="texto_bt"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhVJREFUSEuNVsthQjEMkzIJbAKbwLUM0XaI9gqb0E1gkqgkcV6cl9DCgU9eYsuS7ECsXwQgglD6AATYR9tpe4aH/qztZjvso/mQfTKfxYMYgNYEzyrI6CYPW9ChLiu1X0+/+gezMgtTL2Pp67djUjS2y0IKyPzWf39GhW3NJwXeA7lNh4sGKUhUB9IneCVoQ1J2kzl0NoiTQ5D0/lj4EHAJgcfFRd45xutaZEkHAGcAF5LHXMEkwQbADcCdgdu1ZZtmHa4cKEpXQDuBx0BeVhW0A4rxCnAHYE/yxxthbs0ia6a5QN6SvE8pyqLGeACYSv0huR/YGcrI6A8UzqDRU904NGURvNGU3VCt/EzunOBMIGnw8RD406S2giYjQZlP7Myk1czJgl64JWOzaaNn0MCPjai4o3CdRpsXcn9k/2Qo4pYBVsFMSJa0gXCzRtsHE3uuR59xTfsEj7lCOgM6CFx6Ytg8H7WLJV0f+LG82G4DImmRqunaMkVo3V4e1u71IIZG6xA2RyXLrgTva0kpQmBqk2qgosFwH/zpyX8uojX0bnx2Vu8vHyl+QXgD9U2GU3VIXgfeAHyTPI1idi4aZ0ut9jEA0wzOGmSezSZRMd+q2ZU2PZ1Dlxu1j2wU5Zlj36PiFw1pIE8u8T8VTMZ1LXPuPtNg0Klfb+AG461mzuTabTz7oM/onY8VH+OPvy1j3zh/LjF+AXDHGjEFALBPAAAAAElFTkSuQmCC"/></a></button>
+            </article>
+          </section> 
+          <section class="row justify-content">
+              <article class="col-md-3 mt-2 mt-md-0 col-3">
+                <div class="dropdown" id="boton" >
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Categorias
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="menu">Tecnologia</a></li>
+                    <li><a href="#">Hogar</a></li>
+                    <li><a href="#">Moda/Belleza</a></li>
+                    <li><a href="#">Deporte</a></li>
+                    <li><a href="#">Otros</a></li>
+                  </ul>
+                </div>
+              </article>
+              <article class="col-md-3 mt-2 mt-md-0 col-3">
+                <button class="btn btn-primary" ><a href="/HTML/Index.html" id="texto_bt"> Ofertas especiales</a></button>
+              </article>
+              <article class="col-md-3 mt-2 mt-md-0 col-3">
+                  <button class="btn btn-primary" ><a href="/HTML/Index.html" id="texto_bt">Únete a nosotros</a></button>
+              </article>
+              <article class="col-md-3 mt-2 mt-md-0 col-3">
+                  
+                <button class="btn btn-primary" id="texto_bt"><a href="/HTML/Index.html">Acerca de nosotros</a></button>
+                
+              </article>
+          </section>
+        </header>  
+    <main class="container">
+    <div id="login">
+        <h1>Crear una cuenta</h1>
+        <br>
+        <label>Nombre de usuario:</label>
+        <br>
+        <input type="text" id="usuario" name="username" placeholder="Nombre de usuario" required>
+        <br>
+        <label>Nombre: </label><input type="text" id="nombre" placeholder="Nombre" required> 
+        <label>Apellido: </label> <input type="text" id="apellido" placeholder="Apellido" required>
+        <br>
+        <label>Correo electrónico: </label>
+        <br>
+        <input type="text" id="correo" placeholder="E-mail" required>   
+        <br>
+        <label for="password">Contraseña:</label>
+        <br>
+        <input type="password" id="contraseña" name="password" placeholder="Contraseña" required> <button id="mostrartexto"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAvpJREFUSEulVoGRozAMXFXypJJPKnlSSZJKQifwlRxfid9rySAbE5g7z2SG89laabWSLAIg4KerYeXAsPj/753dO7PulzfbdgSCsATJM0B5sgNkPsPDT9iqgTsIRgQZgPD6XgLOuaPA67J0p4iHyMUG/IzZdOYoxxVwD+Bt7M8BaIIfMXHWudrOAg5gBjztcgXCb72Qvvkx8yfAvyAYzpZIS1w0puDKGWmfbG83WIuSTkwCvII6ZD5qzdbV0TCWjvQQvD9EkCIF0NlvsSzAbNG/PpVoCWwnBRgDcK1qjZHfIZgrhwh+BcA0kK286NilRVOt6owzCnA1iWtU6hBzOdi+AqgTjGyyfTrBNF0pbUFg9JeauS0wMDrhUNX3SF0fTO07SVYmVIz0kOB/4vfTBJjs+LuuZaYLpGssqZJbzDej7gF5+7a3npOnILxy7bpW+jatEJ8BDP6Md+RLhZKUTK/JJb9vJiRfav4eU0AlczG6vGhjhKBjmlK+s4bWLiM9EHIJ3eP3r3j7qWkEm8kH8CXGlpiMxXSGdA+06HPso9EDgkcURQK3iLfg29FV6MbrIzaZu3VDA9bLSovWJam7GHWPHLnt36w59AK8q1m+FREQLK/eZgHMPxb1WnkwQu4/IsDnyNf8evUyEFLNdXMlh+IhYAc4JHITIFieUEXkNLQKTqheS8fS2z0oyy0FkVerjlMDqBpIBnHgMguC0e6FufRoqwoYaNk894aEdp+Vplk7lEyC0MUcZ0ao4hwJnWKt+1ccBwadq1ahansTrb2aAL77bK47tWt0693cIX2qivuO6u0tPSmdIFBcvvlvHmrOCR2hNlIjQ+zt1UtGmuLaM5onEDE4hXKUk71z/sbBMFmozZfMiXm8x6rtb5tGpdc09XuEpbdXLxnNSiFxFYJ/A++loH4VN5313dCVVEH1AcDa1A/oMIdWVphvtt7iQdCqYy/QFh0NhnwKynptVFJ6+xbzuD1ry7wemD1kY79zGaXJiTMo+xnaq46E/R+5UUQz9Ff+zwAAAABJRU5ErkJggg==" width="20"/></button>
+        <br>
+        <input type="checkbox" id="terminos">
+        <label>He leido y acepto los <a href="/HTML/terminos.html">terminos y condiciones</a> y autorizo el uso de mis datos de acuerdo a la <a href="/HTML/privacidad.html">Declaración de privacidad.</a></label>
+        <br>
+        <button id="botonin">Registrarse</button>
+        <p>¿Ya tienes una cuenta? <a href="/HTML/inicio_de_sesion.html">Iniciar Sesión</a></p>
+    </div>
+</main>
+    <script src="/JS/jquery-3.7.1.min.js"></script>
+    <script src="/JS/register.js"></script>
+</body>
+</html>

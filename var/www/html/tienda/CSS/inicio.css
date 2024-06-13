@@ -1,0 +1,94 @@
+header{
+    background-color: rgb(20,57,124);
+    margin: 0;   
+}
+
+body{
+    background-color: rgb(209, 219, 249);
+}
+
+.btn-primary{
+    background-color:rgb(20,57,124);
+    border-color: rgb(20,57,124);
+    text-align: center;
+    font-size: 12px;
+    width: auto; 
+    height: auto;
+    cursor: pointer;
+}
+.dropdown-menu{
+    padding: 10px;
+}
+
+.menu{
+    color:rgb(28,56,81)!important;
+
+}
+.menu:hover{
+    color:rgb(38,35,36)!important;
+
+}
+.dropdown{
+    color: grey;
+    width: 10px;
+}
+
+.categorias{
+    color:rgb(82, 78, 78);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.categorias:hover{
+    text-decoration: none;
+    color:rgb(218, 203, 200);
+}
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"]{
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+
+.search-bar button{
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(38,57,86);
+    color: white;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-bar button:hover{
+    background-color: rgb(33,43,73);
+}
+
+
+footer{
+    background-color: rgb(38,35,36);
+
+    color:rgb(148, 146, 146) !important;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-top: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color:#ffffff;
+}
+
+a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
